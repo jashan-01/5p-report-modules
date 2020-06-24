@@ -1,7 +1,6 @@
 {
   "name": "5paisa-app",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
@@ -11,11 +10,22 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
+    "cookie-parser": "^1.4.5",
     "crypto-js": "^4.0.0",
     "express": "^4.17.1",
     "hbs": "^4.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhishek2022/5paisa-app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Abhishek2022/5paisa-app/issues"
+  },
+  "homepage": "https://github.com/Abhishek2022/5paisa-app#readme",
+  "description": ""
 }

@@ -10,8 +10,7 @@ module.exports = {
         },
         userLogin: {
             requestCode: '5PLoginV2',
-            url:
-            'https://Openapi.5paisa.com/VendorsAPI/Service1.svc/V2/LoginRequestMobileNewbyEmail'
+            url: 'https://Openapi.5paisa.com/VendorsAPI/Service1.svc/V2/LoginRequestMobileNewbyEmail'
         },
         userMargin: {
             requestCode: '5PMarginV3',
@@ -23,8 +22,11 @@ module.exports = {
         },
         userPositions: {
             requestCode: '5PNPNWV1',
-            url:
-            'https://Openapi.5paisa.com/VendorsAPI/Service1.svc/V1/NetPositionNetWise'
+            url: 'https://Openapi.5paisa.com/VendorsAPI/Service1.svc/V1/NetPositionNetWise'
+        },
+        userHolding: {
+            requestCode: '5PHoldingV2',
+            url: 'https://Openapi.5paisa.com/VendorsAPI/Service1.svc/V2/Holding'
         }
     },
 
@@ -38,10 +40,10 @@ module.exports = {
     password: "3wREYKyYoOX",
 
     auth: {
-        cookie: ''
+        cookie: '5paisacookie=m5uphbojqemjpiyazm1s1kde; Path=/; Domain=openapi.5paisa.com; HttpOnly;'
     },
 
-    clientCode: '',
+    clientCode: "55155874",
     incrementalOrderId: 101,
     isLogged: false,
     lastRemoteOrderID: '',
